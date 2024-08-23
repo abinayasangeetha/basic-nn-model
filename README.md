@@ -1,4 +1,4 @@
-# Developing a Neural Network Regression Model
+# EX 01 Developing a Neural Network Regression Model
 
 ## AIM:
 
@@ -35,7 +35,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-``` Name:ABINAYA S
+```
+ Name:ABINAYA S
  Register Number: 212222230002
 ```
 
@@ -94,7 +95,8 @@ loss_df.plot()
 ```py
 X_test1=Scaler.transform(X_test)
 ai_brain.evaluate(X_test1,y_test)
-X_n1=[[19]]
+X_n1=[[
+9]]
 X_n1_1 = Scaler.transform(X_n1)
 ai_brain.predict(X_n1_1)
 ```
@@ -116,6 +118,7 @@ ai_brain.predict(X_n1_1)
 ### Test Data Root Mean Squared Error
 ![Screenshot 2024-08-23 085816](https://github.com/user-attachments/assets/4247dfe3-6fa2-4299-8e5d-572dcd3238fd)
 
+![Screenshot 2024-08-23 090624](https://github.com/user-attachments/assets/96e6698a-52b1-4872-b89f-a5de911df515)
 
 ### New Sample Data Prediction
 
